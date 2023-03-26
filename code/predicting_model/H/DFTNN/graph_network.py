@@ -166,8 +166,8 @@ atom_state = Dense(1)(atom_state)
 
 output = Add()([atom_state, atomwise_shift])
 
-filepath = "/best_model.hdf5"
-#filepath = "/best_model_H_DFTNN.hdf5"
+filepath = "best_model.hdf5"
+#filepath = "best_model_H_DFTNN.hdf5"
 
 lr = 5E-4
 epochs = 1200
